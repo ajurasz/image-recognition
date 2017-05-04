@@ -1,11 +1,11 @@
-###Install
+### Install
 
 `pip install pip install --upgrade -r requirements.txt`
 
-###Python version
+### Python version
 Tested with 3.5.2
 
-###Run
+### Run
 
 `python classify_image.py --image_file='./sample_images/panda.jpg'`
 
@@ -13,7 +13,7 @@ Tested with 3.5.2
 
 `python classify_image.py --image_file='./sample_images/cat.jpg'`
 
-###Output
+### Output
 
 ```
 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
@@ -23,6 +23,6 @@ custard apple (score = 0.00147)
 earthstar (score = 0.00117)
 ```
 
-###Disclaimer
+### Disclaimer
 
 This version of `classify_image.py` was modified by adding requirements and embedding model related data to project.
