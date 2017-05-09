@@ -5,13 +5,19 @@
 ### Python version
 Tested with 3.5.2
 
-### Run
+### Run using existing [Inception-v3](http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz) model
 
-`python classify_image.py --image_file='./sample_images/panda.jpg'`
+`python classify_image.py --image_file=./sample_images/panda.jpg`
 
-`python classify_image.py --image_file='./sample_images/dog.jpg'`
+`python classify_image.py --image_file=./sample_images/dog.jpg`
 
-`python classify_image.py --image_file='./sample_images/cat.jpg'`
+`python classify_image.py --image_file=./sample_images/cat.jpg`
+
+### Build and run your own NN model
+
+`python nn_run.py` to build and save model.
+
+`python nn_load_model_and_run.py --image_file=./sample_images/dog.jpg` to restore and run model against given image.
 
 ### Output
 
